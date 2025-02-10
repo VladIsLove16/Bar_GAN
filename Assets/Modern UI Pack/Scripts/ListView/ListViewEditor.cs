@@ -116,9 +116,9 @@ namespace Michsky.MUIP
                                 // Row 1
                                 GUILayout.BeginVertical(EditorStyles.helpBox);
 
-                                // Row 1 Type
+                                // Row 1 ItemType
                                 GUILayout.BeginHorizontal();
-                                EditorGUILayout.LabelField(new GUIContent("Row #1 Type"), customSkin.FindStyle("Text"), GUILayout.Width(90));
+                                EditorGUILayout.LabelField(new GUIContent("Row #1 ItemType"), customSkin.FindStyle("Text"), GUILayout.Width(90));
                                 lvTarget.listItems[i].row0.rowType = (ListView.RowType)EditorGUILayout.EnumPopup(lvTarget.listItems[i].row0.rowType);
                                 GUILayout.EndHorizontal();
 
@@ -147,9 +147,9 @@ namespace Michsky.MUIP
                                 {
                                     GUILayout.BeginVertical(EditorStyles.helpBox);
 
-                                    // Row 2 Type
+                                    // Row 2 ItemType
                                     GUILayout.BeginHorizontal();
-                                    EditorGUILayout.LabelField(new GUIContent("Row #2 Type"), customSkin.FindStyle("Text"), GUILayout.Width(90));
+                                    EditorGUILayout.LabelField(new GUIContent("Row #2 ItemType"), customSkin.FindStyle("Text"), GUILayout.Width(90));
                                     lvTarget.listItems[i].row1.rowType = (ListView.RowType)EditorGUILayout.EnumPopup(lvTarget.listItems[i].row1.rowType);
                                     GUILayout.EndHorizontal();
 
@@ -179,9 +179,9 @@ namespace Michsky.MUIP
                                 {
                                     GUILayout.BeginVertical(EditorStyles.helpBox);
 
-                                    // Row 3 Type
+                                    // Row 3 ItemType
                                     GUILayout.BeginHorizontal();
-                                    EditorGUILayout.LabelField(new GUIContent("Row #3 Type"), customSkin.FindStyle("Text"), GUILayout.Width(90));
+                                    EditorGUILayout.LabelField(new GUIContent("Row #3 ItemType"), customSkin.FindStyle("Text"), GUILayout.Width(90));
                                     lvTarget.listItems[i].row2.rowType = (ListView.RowType)EditorGUILayout.EnumPopup(lvTarget.listItems[i].row2.rowType);
                                     GUILayout.EndHorizontal();
 

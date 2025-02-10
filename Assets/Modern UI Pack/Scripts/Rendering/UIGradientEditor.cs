@@ -41,7 +41,7 @@ namespace Michsky.MUIP
                 case 0:
                     MUIPEditorHandler.DrawHeader(customSkin, "Options Header", 6);
                     MUIPEditorHandler.DrawPropertyCW(_effectGradient, customSkin, "Gradient", 100);
-                    MUIPEditorHandler.DrawPropertyCW(_gradientType, customSkin, "Type", 100);
+                    MUIPEditorHandler.DrawPropertyCW(_gradientType, customSkin, "ItemType", 100);
                     MUIPEditorHandler.DrawPropertyCW(_offset, customSkin, "Offset", 100);
                     MUIPEditorHandler.DrawPropertyCW(_zoom, customSkin, "Zoom", 100);
                     _modifyVertices.boolValue = MUIPEditorHandler.DrawToggle(_modifyVertices.boolValue, customSkin, "Complex Gradient");

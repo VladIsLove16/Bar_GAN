@@ -119,7 +119,7 @@ namespace Michsky.MUIP
                     GUILayout.EndVertical();
 
                     MUIPEditorHandler.DrawHeader(customSkin, "Animation Header", 10);
-                    MUIPEditorHandler.DrawProperty(animationType, customSkin, "Animation Type");
+                    MUIPEditorHandler.DrawProperty(animationType, customSkin, "Animation ItemType");
 
                     if (dTarget.animationType == DropdownMultiSelect.AnimationType.Modular)
                     {

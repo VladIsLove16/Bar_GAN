@@ -349,7 +349,7 @@ namespace Michsky.MUIP
 
             if (showSlider && sliderThemeType.enumValueIndex == 0)
             {
-                MUIPEditorHandler.DrawProperty(sliderThemeType, customSkin, "Theme Type");
+                MUIPEditorHandler.DrawProperty(sliderThemeType, customSkin, "Theme ItemType");
                 MUIPEditorHandler.DrawProperty(sliderLabelFont, customSkin, "Label Font");
                 MUIPEditorHandler.DrawProperty(sliderColor, customSkin, "Primary Color");
                 MUIPEditorHandler.DrawProperty(sliderBackgroundColor, customSkin, "Secondary Color");
@@ -358,7 +358,7 @@ namespace Michsky.MUIP
 
             if (showSlider && sliderThemeType.enumValueIndex == 1)
             {
-                MUIPEditorHandler.DrawProperty(sliderThemeType, customSkin, "Theme Type");
+                MUIPEditorHandler.DrawProperty(sliderThemeType, customSkin, "Theme ItemType");
                 MUIPEditorHandler.DrawProperty(sliderLabelFont, customSkin, "Label Font");
                 MUIPEditorHandler.DrawProperty(sliderColor, customSkin, "Color");
                 MUIPEditorHandler.DrawProperty(sliderLabelColor, customSkin, "Label Color");
