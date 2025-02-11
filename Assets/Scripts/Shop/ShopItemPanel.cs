@@ -9,7 +9,7 @@ public class ShopItemPanel : MonoBehaviour
     public Action Closed;
     public Action Opened;
 
-    private void Awake()
+    private void Start()
     {
         foreach (ShopItemData item in Data)
         {
